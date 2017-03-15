@@ -2078,16 +2078,11 @@
 				width: 100%;
 			}
 
-		.image.avatar {
-			border-radius: 100%;
-		}
-
 			.image.avatar:before {
 				display: none;
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
 				width: 100%;
 			}
 
@@ -2526,9 +2521,10 @@
 			margin: 0;
 		}
 
+/* Szerokość obrazka loga */
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 11em;
 		}
 
 /* Footer */
