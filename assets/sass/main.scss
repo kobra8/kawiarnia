@@ -902,11 +902,11 @@
 		@include vendor('align-items', 'flex-end');
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
-		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../../images/bg.jpg');
-		background-position:	top left,							top left;
-		background-repeat:		repeat,								no-repeat;
-		background-size:		auto,								auto 100%;
+		// background-attachment:	scroll,								fixed;
+		// background-image:		url('images/overlay.png'),			url('../../images/bg.jpg');
+		// background-position:	top left,							top left;
+		// background-repeat:		repeat,								no-repeat;
+		// background-size:		auto,								auto 100%;
 		color: _palette(accent2, fg);
 		height: 100%;
 		left: 0;
@@ -1000,9 +1000,9 @@
 
 			&:first-child {
 				border-top: 0;
-				margin-top: 0;
+				margin: 0 auto;
 				padding-top: 0;
-				width: 100%;
+				max-width: 500px;
 			}
 		}
 	}
